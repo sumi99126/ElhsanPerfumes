@@ -9,7 +9,7 @@ import "@wizztech/protection/dist/style.css";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <WizzTechProtectionProvider platformUrl={import.meta.env.VITE_WIZZTECH_PLATFORM_URL}>
+    <WizzTechProtectionProvider  platformUrl="https://wizztech-demo-website-platform.netlify.app">
       <CurrencyProvider>
         <CartProvider>
             <App />
